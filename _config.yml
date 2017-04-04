@@ -70,5 +70,5 @@ theme: indigo
 deploy:
   type: git
 ##  repo: https://github.com/triplekiller/triplekiller.github.io.git
-  repo: https://git@github.com:triplekiller/triplekiller.github.io.git
+  repo: git@github.com:triplekiller/triplekiller.github.io.git
   branch: master

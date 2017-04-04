@@ -1,0 +1,23 @@
+language: node_js
+
+node_js: stable
+
+branches:
+  only:
+    - master
+
+before_install:
+  - export TZ='Asia/Shanghai'
+
+install:
+  - npm install
+
+script:
+  - hexo cl
+  - hexo g
+
+after_script:
+  - git config user.name "Ethan Xia"
+  - git config user.email "sanhust@gmail.com"
+  - sed -i '' "s~git@github.com:~https://${GH_TOKEN}:x-oauth-basic@github.com/~" _config.yml
+  - hexo d
