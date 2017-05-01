@@ -1,4 +1,4 @@
-<% if (theme.gitment){ %>
+<% if (theme.github_id){ %>
 <section class="comments" id="comments">
     <!-- GITMENT BEGIN -->
     <div id="gitment_container"></div>
@@ -6,7 +6,7 @@
     <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
     <script>
     var gitment = new Gitment({
-      owner: 'triplekiller',
+      owner: '<%- theme.github_id %>',
       repo: 'triplekiller.github.io',
       oauth: {
         client_id: '063d33196500ebc3fc5d',
