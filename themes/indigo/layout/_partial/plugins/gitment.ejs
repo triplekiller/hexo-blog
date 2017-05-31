@@ -2,15 +2,15 @@
 <section class="comments" id="comments">
     <!-- GITMENT BEGIN -->
     <div id="gitment_container"></div>
-    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+    <link rel="stylesheet" href="//unpkg.com/gitment/style/default.css">
+    <script src="//unpkg.com/gitment/dist/gitment.browser.js"></script>
     <script>
     var gitment = new Gitment({
-      owner: '<%- theme.github_id %>',
-      repo: 'triplekiller.github.io',
+      owner: '<%- theme.gitment.owner %>',
+      repo: '<%- theme.gitment.repo %>',
       oauth: {
-        client_id: '063d33196500ebc3fc5d',
-        client_secret: 'b6dbbd1714b9df1e618bfcb58a1877f3645f398c',
+        client_id: '<%- theme.gitment.client_id %>',
+        client_secret: '<%- theme.gitment.client_secret %>',
       },
     })
     gitment.render('gitment_container')
