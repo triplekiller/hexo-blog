@@ -16,3 +16,6 @@ after_script:
 - git config --global user.email "sanhust@gmail.com"
 - sed -i "s~git@github.com:~https://${GH_TOKEN}:x-oauth-basic@github.com/~" _config.yml
 - hexo d
+env:
+  global:
+    secure: bl+6QpjVP1KGShyFV9WZQAIo/WXobEHS+Meyj/+EMvS2f3my8bUe/034rV5S95AlDBKXMsTS68IfkTCmYyOFlEc8+7V6e6xI+LQFU6aeJgD+7a7Ua1i17hwldTIdF/rd1viV6YNPRDY2MsQ/bnmiTuSCYOewlc3Xa6hNrLcxC5uP+3BO5yIOsr+V/ye4pPBgfh8wZ/ssXbExDR80VdahnVkFnxYPJSWEQyClN2s8zQtcuiCratATW9SmpVwoQMu6aVqT66ETgDC0mg2fG3qDb47oWmbbYfi+xAu5aZs5/ikKziT+LqcZ8cGdJIZnhtzR95Zb8sPY/ikYus1g4K48Sqh773jZwwWVmI+qwWEepqd7UwjVqaxZwYIMd0HzKPuzDrwWYUR82guGJFViGQu7JpqVAfeKoGYGQ2rsWQcYwzEFSlkhmlt/Y6iayo7Uxh02dAAvtTl6d8daPaTcT+5b/ht0R4fbZz8HLPiGH5w9LszRhNc0IVOCLjrvgKERMXSfylvxt03oerbSkkv6Pg/5sZkDjTsrATfoZflOGMSgOONBl8O8TXKRk4VaaoAhQdFgwk2tGejLUFasppSAPe5sFzMcM0XrR40fzUBsp8wAWCgHyehXMvQrMPRvG9UwClv54XcAT0HCGXBKTeCUgfVpLdr41Hje3gKTC8kM1aexq0w=
