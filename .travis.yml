@@ -9,6 +9,7 @@ before_install:
 install:
 - npm install
 script:
+- git clone https://github.com/triplekiller/triplekiller.github.io.git .deploy_git
 - hexo cl
 - hexo g
 after_script:
