@@ -2,6 +2,11 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
+# Markdown
+marked:
+  gfm: true
+  breaks: false
+
 # Site
 title: Ethan's Blog
 description: Keep thinking and keep moving
