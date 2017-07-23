@@ -16,9 +16,8 @@ after_script:
 - git config --global user.name "Ethan Xia"
 - git config --global user.email "sanhust@gmail.com"
 - sed -i "s~git@github.com:~https://${GH_TOKEN}:x-oauth-basic@github.com/~" _config.yml
-- sed -i "s~git@git.coding.net:~https://${CODING_TOKEN}:x-oauth-basic@git.coding.net/~" _config.yml
+- sed -i "s~git@git.coding.net:~https://triplekiller:${CODING_TOKEN}@git.coding.net/~" _config.yml
 - hexo d
 env:
   global:
   - secure: bl+6QpjVP1KGShyFV9WZQAIo/WXobEHS+Meyj/+EMvS2f3my8bUe/034rV5S95AlDBKXMsTS68IfkTCmYyOFlEc8+7V6e6xI+LQFU6aeJgD+7a7Ua1i17hwldTIdF/rd1viV6YNPRDY2MsQ/bnmiTuSCYOewlc3Xa6hNrLcxC5uP+3BO5yIOsr+V/ye4pPBgfh8wZ/ssXbExDR80VdahnVkFnxYPJSWEQyClN2s8zQtcuiCratATW9SmpVwoQMu6aVqT66ETgDC0mg2fG3qDb47oWmbbYfi+xAu5aZs5/ikKziT+LqcZ8cGdJIZnhtzR95Zb8sPY/ikYus1g4K48Sqh773jZwwWVmI+qwWEepqd7UwjVqaxZwYIMd0HzKPuzDrwWYUR82guGJFViGQu7JpqVAfeKoGYGQ2rsWQcYwzEFSlkhmlt/Y6iayo7Uxh02dAAvtTl6d8daPaTcT+5b/ht0R4fbZz8HLPiGH5w9LszRhNc0IVOCLjrvgKERMXSfylvxt03oerbSkkv6Pg/5sZkDjTsrATfoZflOGMSgOONBl8O8TXKRk4VaaoAhQdFgwk2tGejLUFasppSAPe5sFzMcM0XrR40fzUBsp8wAWCgHyehXMvQrMPRvG9UwClv54XcAT0HCGXBKTeCUgfVpLdr41Hje3gKTC8kM1aexq0w=
-  - secure: ebY5xNm7+KrtMWyGb0csoLpRTOvMrY7Y16t4vYlbpnjuBMZL4/PQzY2Mr9tNGrYifprgzx5uexp8Ix9jNe9W/dUX91e++vTkdV+36KyCGJpyUwTXPD8J82WElS6ixYS/mnB7L+e6SUy9QrcG3kfs+uDvX3oNWygF7Ci43uXpStTWcIey1viHIcr3ecQ5WNpK2CY9+4R1BegB27x7dqw+h7z1yLC41pYo+Ven3eG48Drw1aduDSarA7/+CAn+sNEEsAQJXHjzr71qlQYLMNfhl3rAJzLjqolEsQEqDjWC3lDj2B8TQ+7Ni28Gq0mYLCxYgx5fBaOYc3BpbJOsLHL9UkAdPM6oYEOkySojhoIkt7uPf55SbBBVW8jc2mhyiw7VV6mDuiKhadTX4qByEKHPGLm1PDI4RyFZeUshbrlGLn9Rav0HL/NRrBj370+d/X8ZurrLuAXenxZ5LTEj3QFznBewYSe0euae3K73c6HYbJEwqtjhJpX1KhdrHkgLvqx4+od1N0eaxrJrPXlqE3cgnrbh8k5Rx1A63eH363td6AGzqMDf0I1LdOwn7WP0iQs5dWLxCYNalffysDB7rRBUHeAIWuFaa77mUffe2wvVvNQi8+j3Rj/BfVxgsQi5dJDINW0KqMLeIyLPdff9Ne4I3UthLl5CrWwg/74eGtRHMUs=
