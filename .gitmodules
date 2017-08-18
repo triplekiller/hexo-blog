@@ -1,4 +1,4 @@
 [submodule "themes/indigo"]
 	path = themes/indigo
-	url = git@github.com:triplekiller/hexo-theme-indigo.git
+	url = https://github.com/triplekiller/hexo-theme-indigo.git
 	branch = card-triplekiller
