@@ -2,10 +2,10 @@
 title: Start Writing Hexo Blog
 date: 2018-01-23 15:04:19
 tags: [hexo]
-categories: Tech
+categories: Network
 ---
 
-Hexo博客已经搭建完毕，但有时需要在不同的电脑上写博客，需要重新安装Hexo博客环境，步骤如下：
+Hexo博客已经搭建完毕，但有时需要在不同的电脑上写博客，需要重新安装Hexo博客环境，具体步骤如下：
 
 ### Clone博客源码
 
@@ -38,6 +38,10 @@ $ git config user.email "sanhust@gmail.com"
 生成静态文件，路径在public目录中
 
 `$ hexo g`
+
+启动服务器，默认访问地址为：http://localhost:4000/
+
+`$ hexo s`
 
 ### 写博客
 
