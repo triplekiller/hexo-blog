@@ -2,7 +2,7 @@
 title: Linux Zombie
 date: 2017-04-16 22:34:59
 tags: [process]
-categories: Tech
+categories: Linux
 ---
 
 ### 僵尸进程：defunt/zombie
