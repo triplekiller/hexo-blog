@@ -29,9 +29,9 @@ $ git push origin card
 $ git checkout card-triplekiller
 $ git rebase card
 # Resolve conflicts and then run "git rebase --continue"
-$ git push origin card
+$ git push origin card-triplekiller
 $ cd ../../
-### Bump up submodule revision
+# Bump up submodule revision
 $ git add themes/indigo
 $ git commit -s -m "indigo: Merge upstream commits"
 $ git push origin master
