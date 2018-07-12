@@ -9,7 +9,7 @@ categories: Coding
 
 不同的编程语言有不同的编码风格，变量函数的命名是用匈牙利命名法(iMyName)还是驼峰命名法(myName)还是帕斯卡命名法(MyName)还是下划线命名法(my_name)，代码注释是用`//`还是`/* */`，代码缩进是用空格还是tab键，这些都是代码风格相关的内容。大公司一般都有自己的编码规范，华为有华为的一套，微软有微软的规范，谷歌也有谷歌的风格，小公司一般就实行拿来主义，照搬谷歌微软之类的就行，毕竟规范只是形式，代码本身才是内容。当然，对于开源社区的项目或已有的项目，必须遵循现存的代码风格，比如进行Linux驱动开发就必须遵循Linux内核的代码风格。对于C++的编码风格，建议使用Google C++ style。
 
-常用的C/C++代码格式化及检测工具有cpplint，clang-format，PC-Lint，astyle等，下面只介绍cpplint和clang-format，因为我就用这两个☺☺☺
+常用的C/C++代码格式化及检测工具有cpplint，clang-format，PC-Lint，astyle等，下面只介绍cpplint和clang-format，因为我就用这两个:smile: :grin:
 
 ### cpplint
 
