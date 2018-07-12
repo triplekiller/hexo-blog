@@ -7,6 +7,15 @@ marked:
   gfm: true
   breaks: false
 
+# github emojis
+# https://www.npmjs.com/package/hexo-filter-github-emojis
+githubEmojis:
+  enable: true
+  className: github-emoji
+  unicode: false
+  styles:
+  localEmojis:
+
 # Site
 title: EthanX's Blog
 description: Keep thinking and keep moving
