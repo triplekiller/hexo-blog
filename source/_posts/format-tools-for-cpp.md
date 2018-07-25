@@ -28,6 +28,12 @@ clang-format是LLVM Clang编译器中自带的工具，用来格式化C/C++/Java
 
 `$ clang-format -dump-config -style=Google > .clang-format`
 
+clang-format默认使用的Google style有一个选项AllowShortFunctionsOnASingleLine，默认值是All，允许很短的函数或inline函数(在class内部定义的函数)或空函数写成一行，这种style大部分人都会不习惯，所以改成Empty，只将空函数写成一行。
+
+```
+$ clang-format -dump-config -style="{BasedOnStyle: Google, AllowShortFunctionsOnASingleLine: Empty}" > .clang-format
+```
+
 ### Reference
 
 [Google C++ Style](https://google.github.io/styleguide/cppguide.html)
