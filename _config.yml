@@ -85,5 +85,5 @@ deploy:
 ##  repo: https://github.com/triplekiller/triplekiller.github.io.git
   repo:
     github: git@github.com:triplekiller/triplekiller.github.io.git
-    coding: git@git.coding.net:triplekiller/triplekiller.coding.me.git
+    coding: git@git.coding.net:triplekiller/hexoblog.git
   branch: master
